@@ -22,9 +22,6 @@ class Circle(Figure):
         self.fc.colorproperty = color_param
 
     def square(self):
-        """
-        Класс должен переопределять метод, вычисляющий площадь фигуры.
-        """
         return math.pi*(self.r**2)
 
     def __repr__(self):
